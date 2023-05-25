@@ -23,32 +23,30 @@ body {
     margin: 20px;
 }
 
-.temp-converter h2 {
-    padding: 10px;
+.temp-converter h1 {
+    padding: 20px;
     margin: 3px;
     border: 2px solid black;
     border-radius: 10px;
     background: pink;
 }
 
-.temp-converter .celcius {
-    margin: 10px;
-    padding: 5px;
+.temp-converter .temps {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    font-weight: bold;
+    width: 100%;
 }
 
-.temp-converter .fahrenheit {
+.temp-converter .celcius, .fahrenheit {
     margin: 10px;
     padding: 5px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: 18px;
     font-weight: bold;
+    width: 100%;
+    font-size: 23px;
 }
 
 .temp-converter .inputs {
@@ -58,6 +56,7 @@ body {
     border-radius: 5px;
     background-color: ivory;
     font-size: 15px;
+    text-align: center;
 }
 
 .temp-converter p span {
@@ -77,6 +76,7 @@ body {
     color: black;
     border: 2px solid black;
     border-radius: 7px;
+    width: 25%;
 }
 
 .temp-converter button:hover {
